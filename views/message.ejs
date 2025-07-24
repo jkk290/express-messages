@@ -1,11 +1,16 @@
-<head>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<section>
-    <a href="/" class="backBtn">Back</a>
-    <div class="messageContainer">
-        <p class="user">User: <%= message.user %></p>
-        <p class="message"><%= message.text %></p>
-        <p class="date">Date Added: <%= message.added %></p>
-    </div>
-</section>
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css">
+        <title>Message: <%= message.id %></title>
+    </head>
+    <body>
+        <section>
+        <a href="/" class="backBtn">Back</a>
+        <div class="messageContainer">
+            <p class="user">User: <%= message.user %></p>
+            <p class="message"><%= message.text %></p>
+            <p class="date">Date Added: <%= message.added %></p>
+        </div>
+        </section>
+    </body>    
+</html>

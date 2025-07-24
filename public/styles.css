@@ -19,7 +19,8 @@ body {
     font-size: 1.5rem;
 }
 
-.users:visited {
+.users:visited,
+.users:link {
     color: lightgray;
 }
 
@@ -48,17 +49,20 @@ li {
     border-radius: 10px;
     text-decoration: none;
     padding: 15px;
-    position: absolute;
-    top: 30px;
-    left: 500px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    position: absolute;
+    left: 75%;
 }
 
-.newMessageBtn:visited {
+.newMessageBtn:visited,
+.newMessageBtn:link {
     color: lightgray;
 }
 
 .backBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
     font-size: 1.5rem;
     color: lightgray;
     background-color: rgb(64, 62, 75);
@@ -71,7 +75,7 @@ li {
 
 .messageContainer {
     background-color: rgb(64, 62, 75);
-    margin: 50px;
+    margin: 80px;
     padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
