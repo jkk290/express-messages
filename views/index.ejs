@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title><% title %></title>
+    </head>
+    <body>
+        <ul>
+            <% messages.forEach((message) => { %>
+                <li>
+                    <p>User: <%= message.user %></p>
+                    <p><%= message.text %></p>
+                    <p>Date Added: <%= message.date %></p>
+                </li>
+            <% }); %>
+        </ul>
+    </body>
+</html>
