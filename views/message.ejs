@@ -1,8 +1,11 @@
+<head>
+    <link rel="stylesheet" href="/styles.css">
+</head>
 <section>
-    <a href="/">Back</a>
-    <div>
-        <p>User: <%= message.user %></p>
-        <p><%= message.text %></p>
-        <p>Date Added: <%= message.added %></p>
+    <a href="/" class="backBtn">Back</a>
+    <div class="messageContainer">
+        <p class="user">User: <%= message.user %></p>
+        <p class="message"><%= message.text %></p>
+        <p class="date">Date Added: <%= message.added %></p>
     </div>
 </section>

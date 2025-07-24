@@ -1,0 +1,111 @@
+body { 
+    color: lightgray;
+    background-color: rgb(42, 39, 61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.users {
+    font-size: 2rem;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    text-decoration: none;
+}
+
+.messages {
+    font-size: 1.5rem;
+}
+
+.users:visited {
+    color: lightgray;
+}
+
+ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+li {
+    background-color: rgb(64, 62, 75);
+    margin: 50px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.newMessageBtn {
+    font-size: 1.5rem;
+    color: lightgray;
+    background-color: rgb(64, 62, 75);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.newMessageBtn:visited {
+    color: lightgray;
+}
+
+.backBtn {
+    font-size: 1.5rem;
+    color: lightgray;
+    background-color: rgb(64, 62, 75);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.messageContainer {
+    background-color: rgb(64, 62, 75);
+    margin: 50px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    font-size: 1.5rem;
+}
+
+form {
+    margin: 40px;
+    padding: 20px;
+}
+
+label {
+    font-size: 2rem;
+    color: lightgray;
+}
+
+input, 
+textarea {
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+    border-style: none;
+    border-radius: 10px;
+}
+
+.submitBtn {
+    font-size: 1.5rem;
+    color: lightgray;
+    background-color: rgb(64, 62, 75);
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
